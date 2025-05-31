@@ -1,0 +1,27 @@
+{
+  "name": "next14app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .next && next dev",
+    "build": "rm -rf .next && next build",
+    "ts": "tsc --noEmit",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "shared": "file:../shared"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^15.3.2",
+    "@types/node": "^20",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.0.2"
+  }
+}
